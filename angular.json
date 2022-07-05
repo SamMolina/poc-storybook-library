@@ -3,5 +3,36 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "poc-storybook-library": {
+      "projectType": "library",
+      "root": "projects/poc-storybook-library",
+      "sourceRoot": "projects/poc-storybook-library/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/poc-storybook-library/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/poc-storybook-library/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/poc-storybook-library/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/poc-storybook-library/src/test.ts",
+            "tsConfig": "projects/poc-storybook-library/tsconfig.spec.json",
+            "karmaConfig": "projects/poc-storybook-library/karma.conf.js"
+          }
+        }
+      }
+    }
   }
 }

@@ -16,6 +16,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "poc-storybook-library": [
+        "dist/poc-storybook-library"
+      ]
+    },
     "target": "es2020",
     "module": "es2020",
     "lib": [
