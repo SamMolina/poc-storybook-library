@@ -26,5 +26,5 @@ npm link poc-storybook-library
 
 Import button component:
 ```
-import { DesingSystemButton } from './button.component';
+import { DesingSystemButton } from 'poc-storybook-library';
 ```
