@@ -26,12 +26,6 @@ export class DesingSystemButton implements OnInit {
   disabled = false;
 
   /**
-   * What background color to use
-   */
-  @Input()
-  backgroundColor?: string;
-
-  /**
    * How large should the button be?
    */
   @Input()
