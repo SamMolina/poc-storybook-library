@@ -1,5 +1,5 @@
 {
-  "name": "@samanthamolina/poc-storybook-library",
+  "name": "@sammolina/poc-storybook-library",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -53,6 +53,7 @@
   },
   "homepage": "https://github.com/SamMolina/poc-storybook-library#readme",
   "publishConfig": {
-    "@SamMolina:registry":"https://npm.pkg.github.com"
+    "@SamMolina:registry":"https://npm.pkg.github.com",
+    "access": "public"
   }
 }
