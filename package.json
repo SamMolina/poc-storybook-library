@@ -53,6 +53,6 @@
   },
   "homepage": "https://github.com/SamMolina/poc-storybook-library#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "@SamMolina:registry":"https://npm.pkg.github.com"
   }
 }
