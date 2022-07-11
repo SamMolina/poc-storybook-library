@@ -51,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/SamMolina/poc-storybook-library/issues"
   },
-  "homepage": "https://github.com/SamMolina/poc-storybook-library#readme"
+  "homepage": "https://github.com/SamMolina/poc-storybook-library#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
