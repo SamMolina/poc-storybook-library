@@ -18,5 +18,5 @@ jobs:
         with:
           semantic_version: 19.0.3
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
