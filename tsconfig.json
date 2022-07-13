@@ -17,6 +17,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "ds-button": [
+        "dist/ds-button"
+      ],
       "poc-storybook-library": [
         "dist/poc-storybook-library"
       ]

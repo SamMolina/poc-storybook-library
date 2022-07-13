@@ -1,0 +1,8 @@
+<button
+    type="button"
+    [disabled]="disabled"
+    (click)="onClick.emit($event)"
+    [ngClass]="classes"
+  >
+    {{ label }}
+</button>

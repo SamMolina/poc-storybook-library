@@ -33,6 +33,37 @@
           }
         }
       }
+    },
+    "ds-button": {
+      "projectType": "library",
+      "root": "projects/ds-button",
+      "sourceRoot": "projects/ds-button/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ds-button/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ds-button/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ds-button/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ds-button/src/test.ts",
+            "tsConfig": "projects/ds-button/tsconfig.spec.json",
+            "karmaConfig": "projects/ds-button/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
